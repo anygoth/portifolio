@@ -1,0 +1,135 @@
+/* reset geral */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #bd04f6;
+    border: none;
+
+}
+
+
+body {
+    height: 100vh;
+    background:linear-gradient(#00000041, #000), url("../css/arlequina-encantando-a-cultura-pop-com-sua-loucura-0-scaled.jpg") center no-repeat;
+    background-size: cover;
+    display: grid;
+    place-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input:focus {
+    outline: none;
+}
+
+a {
+    font-size: 1.rem;
+}
+
+a:hover {
+    color: #08558b
+}
+
+h1{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+/* container login */
+
+#login-container {
+    background-color: #ceafdf00;
+    width: 25rem;
+    padding: 1.5rem 1.8rem;
+    
+    border-radius:10px;
+    text-align: center;
+
+}
+
+/* area do formulario */
+label,
+input {
+
+    display: block;
+    width: 100%;
+    text-align: left;
+}
+
+
+label {
+    font-weight: bold;
+    font-size: 1rem;
+    text-shadow: 1px 1px 4px#000;
+}
+
+input {
+    border-bottom: 2px solid #323232;
+    padding: 10px;
+    font-size:1rem;
+    margin-bottom: 10px;
+    background: transparent
+
+}
+
+input:focus {
+    border-bottom: 2px solid #08558b;
+
+
+}
+
+#forgot-pass {
+    text-align: right;
+    display: block;
+
+}
+
+input[type="submit"] {
+    background-color: #08558b57;
+    text-align: center;
+    color: fff;
+
+    border: none;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 30px auto 20px;
+    width: 40%;
+    transition: width 1.5s;
+}
+
+input[type="submit"]:hover {
+    width: 100%;
+    background-color: #08558b;
+    
+}
+
+/* social container */
+ #social-container, #social-container p{
+    margin-bottom: 1.25rem;
+ }
+
+ #social-container i {
+   
+    width: 2.5rem;
+    height: 2.5rem;
+    line-height: 2.5rem ;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 1.5rem;
+   
+}
+ .fa-fafacebook-f {
+background: #1f7bf2;
+
+ }    
+.fa-linkedin{
+    background-color: #086b9c;
+
+}
+.fa-whatsapp{
+    background: linear-gradient(to bottom),#5ff475,#38c33a;
+
+
+}

@@ -1,0 +1,56 @@
+@font-face {
+    font-family: manuel;
+    src: url(../fonte/good\ timing\ bd.otf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* plano de fundo */
+body {
+    background: linear-gradient(#2050A3, #739BBD)no-repeat;
+    background-size: cover;
+    height: 100vh;
+
+}
+
+/* caixa de texto */
+form h1 {
+    font-family: manuel;
+    font-size: 3rem;
+
+}
+
+form {
+    margin-top: 2.5rem;
+    background-color: white;
+    color: #000000;
+    font-size: 1.5rem;
+    text-shadow: #0484A4 1.5px 1px;
+    text-align: center;
+    height: 500px;
+    width: 500px;
+    justify-content: center;
+    display: grid;
+    padding: 2.5rem;
+  
+}
+form input{
+    border-radius: 5px;
+    padding-right:50%;
+    border-color: #01286c;
+}
+form select{
+    border-radius: 5px;
+    padding-right:50%;
+    border-color: #01286c;
+    color: red;
+}
+
+
+
+
+

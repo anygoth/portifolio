@@ -1,0 +1,73 @@
+/*Reserte Geral*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.fundo{
+    background: linear-gradient(45deg, #fff,#00000065);
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+.fundo h1{
+    position: absolute;
+    top: 5%;
+    font-size: 2.5rem;
+    color: aqua;
+    text-shadow: 3px 3px #fff;
+}
+
+.calculadora{
+    background: #000;
+    padding: 1rem;
+    border-radius: 10px;
+
+}
+
+#resultado{
+    background: #fff;
+    text-align: right;
+    padding: 0 5px;
+    font-size: 1.8rem;
+    border-radius: 5px;
+    margin: 1rem auto, 4rem;
+    width: 14rem;
+    height: 2.5rem;
+    overflow: hidden;
+}
+
+
+
+button{
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: 800;
+    margin: 3px;
+    border-radius: 5px;
+    box-shadow: 3px 3px #413f3f;
+    transition: all .3s;
+    cursor: pointer;
+
+}
+button:hover{
+transform: scale(105%);
+}
+
+button:active{
+    transform: scale(98%);
+    box-shadow: 3px 3px crimson;
+}
+
+td[rowspan="2"] button{
+    height: 108px;
+}
+
+td[colspan="2"] button{
+    width: 108px;
+
